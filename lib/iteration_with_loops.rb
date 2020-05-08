@@ -7,7 +7,7 @@ def find_even_values(src)
   while row < src.length do
     while column < src[row].length do
       if src[row][column] % 2 == 0
-        puts src[row][column]
+        p src[row][column]
       end
       column+=1
     end
